@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	line-height: 1.2em;
+	color: #333333;
+
+	background-image: url('../images/background.png');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: 30% 0%; 
+}
+
+#header, #controls, #log {
+	padding: 10px 20px;
+}
+
+#header {
+	background-color: #FFF;
+}
+
+#header #logo {
+	max-width: 320px;
+	width: 100%;
+    height: auto;
+}
+
+#header #title1 {
+	float: right;
+	text-align: right;
+	font-size: 80%;
+}
+
+#header #title2 {
+	display: none;
+	text-align: inherit;
+	padding-top: 10px;
+	font-size: 80%;
+}
+
+#controls {
+	width: 30%;
+	float: left;
+	background-color: #EEE;
+	padding: 20px;
+}
+
+#log {
+	width: 70%;
+	float: right;
+}
+
+#log div {
+	margin-bottom: 10px;
+}
+
+#log div.debug {
+	background-color: #FAFAFA;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    	background: none;
+    }
+
+    #header {
+    	text-align: center;
+    }
+
+    #header #title1 {
+        display: none;
+    }
+
+	#header #title2 {
+		display: block;
+	}
+
+	#controls {
+		width: 100%;
+	}
+
+	#log {
+		width: 100%;
+	}
+}
+
+/* Floats self-clearing */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* for IE6 */
+* html .group {
+	height: 1%;
+}
+
+/* for IE7 */
+*:first-child+html .group {
+	min-height: 1px;
+}
+
+
+/* BASIC STYLES */
+
+input[type=text] {
+	font-size: 140%;
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 6px;
+	background-color: #FFF;
+	text-align: center;
+	width: 100%;
+}
+
+input[type=text][disabled] {
+	border-color: #DCDCDC;
+	background-color: #F9F9F9;
+	color: #ACACAC;
+}
+
+input[type=button] {
+	font-size: 140%;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 6px;
+	background-color: #DDD;
+	text-align: center;
+	width: 100%;
+}
+
+input[type=button]:not([disabled]):hover {
+	background-color: #E3E3E3;
+}
+
+input[type=button]:active {
+	background-color: #DDD;
+}
+
+input[type=button][disabled] {
+	color: #ACACAC;
+}
+
+input {
+	margin: 5px 0;
+}
+

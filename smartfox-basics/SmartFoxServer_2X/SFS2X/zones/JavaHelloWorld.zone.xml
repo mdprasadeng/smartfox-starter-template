@@ -1,5 +1,5 @@
 <zone>
-  <name>JSHelloWorld</name>
+  <name>JavaHelloWorld</name>
   <isCustomLogin>false</isCustomLogin>
   <isForceLogout>false</isForceLogout>
   <applyWordsFilterToUserName>true</applyWordsFilterToUserName>
@@ -113,9 +113,9 @@
     </profiles>
   </privilegeManager>
   <extension>
-    <name>JSHelloWorld</name>
-    <type>JAVASCRIPT</type>
-    <file>JSHelloWorld.js</file>
+    <name>JavaHelloWorld</name>
+    <type>JAVA</type>
+    <file>ZoneExt</file>
     <propertiesFile></propertiesFile>
     <reloadMode>AUTO</reloadMode>
   </extension>

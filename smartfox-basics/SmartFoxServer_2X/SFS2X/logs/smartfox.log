@@ -47,3 +47,1113 @@ Once logged in choose Server Settings > Remote Admin, apply the changes and rest
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 09 Mar 2022 | 12:45:28,535 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 15:50:50,612 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 15:50:50,891 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 15:50:50,909 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 15:50:50,955 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 15:50:50,956 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 15:50:50,966 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 15:50:50,971 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 15:50:50,973 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 15:50:50,991 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:50:51,012 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:50:51,018 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:50:51,053 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 15:50:51,425 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 15:50:51,427 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 15:50:51,427 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 15:50:51,430 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:50:53,494 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 15:50:58,842 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 15:50:59,139 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 15:50:59,162 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 15:50:59,218 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 15:50:59,220 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 15:50:59,235 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 15:50:59,240 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 15:50:59,242 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 15:50:59,260 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:50:59,284 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:50:59,290 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:50:59,325 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 15:50:59,692 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 15:50:59,694 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 15:50:59,694 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 15:50:59,697 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:51:02,460 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 15:51:23,927 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 62640
+09 Mar 2022 | 15:51:23,951 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:62640 ) , Type: JavaScript
+09 Mar 2022 | 15:51:23,959 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:62640 ) , asSpect: false
+09 Mar 2022 | 15:55:16,720 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 15:55:17,001 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 15:55:17,019 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 15:55:17,067 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 15:55:17,068 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 15:55:17,077 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 15:55:17,082 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 15:55:17,085 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 15:55:17,103 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:55:17,125 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:55:17,131 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 15:55:17,167 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 15:55:17,534 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 15:55:17,536 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 15:55:17,536 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 15:55:17,539 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 15:55:19,720 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 15:55:26,850 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 62661
+09 Mar 2022 | 15:55:38,509 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:62661 }
+09 Mar 2022 | 15:55:43,504 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 52931
+09 Mar 2022 | 15:56:17,539 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+09 Mar 2022 | 15:56:17,540 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+09 Mar 2022 | 15:56:17,540 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+09 Mar 2022 | 15:56:17,608 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:52931 }
+09 Mar 2022 | 16:07:13,024 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56939
+09 Mar 2022 | 16:07:47,647 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:56939 }
+09 Mar 2022 | 16:11:36,047 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56984
+09 Mar 2022 | 16:11:51,181 | INFO  | http-nio-8080-exec-5 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:56984 }
+09 Mar 2022 | 16:11:55,232 | INFO  | http-nio-8080-exec-6 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56988
+09 Mar 2022 | 16:12:27,702 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:56988 }
+09 Mar 2022 | 16:12:42,718 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 57092
+09 Mar 2022 | 16:12:46,971 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: Extension Request refused. Sender is not a User: { Id: 6, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:57092 }
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:93)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+09 Mar 2022 | 16:13:17,764 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:57092 }
+09 Mar 2022 | 16:23:24,849 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:23:25,129 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:23:25,149 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:23:25,194 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:23:25,195 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:23:25,204 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:23:25,209 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:23:25,211 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:23:25,229 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:23:25,252 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:23:25,258 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:23:25,293 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:23:25,675 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:23:25,677 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:23:25,677 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:23:25,680 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:23:27,996 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:24:09,028 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 54200
+09 Mar 2022 | 16:24:45,746 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:54200 }
+09 Mar 2022 | 16:24:59,691 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 54202
+09 Mar 2022 | 16:25:35,844 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:54202 }
+09 Mar 2022 | 16:27:09,890 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 50062
+09 Mar 2022 | 16:27:13,280 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Bad login request, Zone: JSHelloWorld does not exist. Requested by: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:50062 }
+09 Mar 2022 | 16:27:23,518 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: Extension Request refused. Sender is not a User: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:50062 }
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:93)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+09 Mar 2022 | 16:27:47,978 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:27:48,263 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:27:48,281 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:27:48,328 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:27:48,328 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:27:48,338 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:27:48,343 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:27:48,345 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:27:48,363 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 16:27:48,372 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:27:48,395 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:27:48,396 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:27:48,398 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:27:48,404 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:27:48,437 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:27:48,801 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:27:48,803 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:27:48,803 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:27:48,806 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:27:50,920 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:27:58,674 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 64857
+09 Mar 2022 | 16:28:02,627 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:64857 ) , Type: JavaScript
+09 Mar 2022 | 16:28:05,141 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: JSHelloWorld }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+09 Mar 2022 | 16:33:08,855 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:64857 }
+09 Mar 2022 | 16:33:08,857 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:64857 ) , SessionLen: 306230, Type: JavaScript
+09 Mar 2022 | 16:34:38,041 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:34:38,328 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:34:38,346 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:34:38,391 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:34:38,392 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:34:38,402 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:34:38,406 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:34:38,408 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:34:38,427 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 16:34:38,435 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:34:38,459 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:34:38,460 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:34:38,461 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:34:39,478 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:34:39,489 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:34:39,521 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:34:39,891 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:34:39,893 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:34:39,893 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:34:39,895 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:34:42,127 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:34:50,446 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56429
+09 Mar 2022 | 16:34:52,114 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56429 ) , Type: JavaScript
+09 Mar 2022 | 16:35:26,463 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:35:26,875 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:35:26,888 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:35:28,890 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:35:29,158 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:35:29,164 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:35:35,882 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:35:36,180 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:35:36,202 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:35:36,259 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:35:36,260 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:35:36,271 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:35:36,276 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:35:36,278 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:35:36,296 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 16:35:36,306 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:35:36,331 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:35:36,332 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:35:36,333 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:35:37,440 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:35:37,451 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:35:37,483 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:35:37,983 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:35:37,985 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:35:37,985 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:35:37,988 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:35:40,744 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:35:48,471 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56439
+09 Mar 2022 | 16:35:48,678 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:56439 }
+09 Mar 2022 | 16:35:50,277 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56445
+09 Mar 2022 | 16:35:51,383 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56445 ) , Type: JavaScript
+09 Mar 2022 | 16:35:52,734 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi from( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56445 )  
+09 Mar 2022 | 16:37:12,390 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:37:12,840 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:37:12,848 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:00,907 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:01,201 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:01,206 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:17,225 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:17,469 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:17,473 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:23,477 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:23,710 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:23,714 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:25,720 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:25,971 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:25,977 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:33,988 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:34,196 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:34,200 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:40,209 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:40,393 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:40,396 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:46,402 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:38:46,553 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:46,556 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:38:55,712 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:38:55,995 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:38:56,015 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:38:56,067 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:38:56,069 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:38:56,078 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:38:56,084 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:38:56,086 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:38:56,105 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 16:38:56,112 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:38:56,137 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:38:56,138 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:38:56,139 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:38:57,198 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:38:57,210 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:38:57,245 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:38:57,634 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:38:57,636 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:38:57,636 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:38:57,638 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:39:00,022 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:39:08,070 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56461
+09 Mar 2022 | 16:39:09,404 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56461 ) , Type: JavaScript
+09 Mar 2022 | 16:39:16,279 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:22,002 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56461 }
+09 Mar 2022 | 16:39:22,003 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56461 ) , SessionLen: 12599, Type: JavaScript
+09 Mar 2022 | 16:39:23,567 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56466
+09 Mar 2022 | 16:39:24,658 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:56466 ) , Type: JavaScript
+09 Mar 2022 | 16:39:27,450 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:30,012 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:30,631 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:30,813 | INFO  | SFSWorker:Ext:3 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:30,973 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:39:54,164 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:39:54,557 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:39:54,565 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:39:56,567 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:39:56,909 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:39:56,915 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:39:57,749 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56466 }
+09 Mar 2022 | 16:39:57,750 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:56466 ) , SessionLen: 33092, Type: JavaScript
+09 Mar 2022 | 16:39:59,177 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56470
+09 Mar 2022 | 16:40:00,224 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 2, Priv: 0, Sess: 127.0.0.1:56470 ) , Type: JavaScript
+09 Mar 2022 | 16:40:05,281 | INFO  | http-nio-8080-exec-9 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56470 }
+09 Mar 2022 | 16:40:05,282 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 2, Priv: 0, Sess: 127.0.0.1:56470 ) , SessionLen: 5058, Type: JavaScript
+09 Mar 2022 | 16:40:06,777 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56474
+09 Mar 2022 | 16:40:10,521 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 3, Priv: 0, Sess: 127.0.0.1:56474 ) , Type: JavaScript
+09 Mar 2022 | 16:40:13,848 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:40:13,857 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 16:40:30,948 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:40:31,276 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:40:31,285 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:40:32,171 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56474 }
+09 Mar 2022 | 16:40:32,173 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 3, Priv: 0, Sess: 127.0.0.1:56474 ) , SessionLen: 21652, Type: JavaScript
+09 Mar 2022 | 16:40:34,755 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56475
+09 Mar 2022 | 16:40:35,513 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 4, Priv: 0, Sess: 127.0.0.1:56475 ) , Type: JavaScript
+09 Mar 2022 | 16:40:37,737 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:40:37,743 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 16:40:40,800 | INFO  | http-nio-8080-exec-5 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56475 }
+09 Mar 2022 | 16:40:40,801 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 4, Priv: 0, Sess: 127.0.0.1:56475 ) , SessionLen: 5288, Type: JavaScript
+09 Mar 2022 | 16:40:42,128 | INFO  | http-nio-8080-exec-6 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56476
+09 Mar 2022 | 16:40:42,933 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 5, Priv: 0, Sess: 127.0.0.1:56476 ) , Type: JavaScript
+09 Mar 2022 | 16:40:45,090 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56476 }
+09 Mar 2022 | 16:40:45,091 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 5, Priv: 0, Sess: 127.0.0.1:56476 ) , SessionLen: 2158, Type: JavaScript
+09 Mar 2022 | 16:40:46,146 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56479
+09 Mar 2022 | 16:40:47,307 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 6, Priv: 0, Sess: 127.0.0.1:56479 ) , Type: JavaScript
+09 Mar 2022 | 16:40:48,829 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:40:48,832 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 16:41:04,750 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 16:41:05,038 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 16:41:05,057 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 16:41:05,104 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 16:41:05,105 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 16:41:05,114 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 16:41:05,118 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 16:41:05,121 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 16:41:05,139 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 16:41:05,147 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:41:05,171 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:41:05,172 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:41:05,173 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:41:06,218 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:41:06,228 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 16:41:06,256 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 16:41:06,655 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 16:41:06,657 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 16:41:06,657 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 16:41:06,660 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 16:41:09,157 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 16:41:16,720 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56486
+09 Mar 2022 | 16:41:18,537 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56486 ) , Type: JavaScript
+09 Mar 2022 | 16:41:20,238 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:41:20,259 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 16:42:27,207 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:42:27,592 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:42:27,600 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:42:29,602 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 16:42:29,846 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 16:42:29,850 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 16:42:30,185 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56486 }
+09 Mar 2022 | 16:42:30,187 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:56486 ) , SessionLen: 71650, Type: JavaScript
+09 Mar 2022 | 16:42:31,978 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 56494
+09 Mar 2022 | 16:42:34,146 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:56494 ) , Type: JavaScript
+09 Mar 2022 | 16:42:37,710 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 16:42:37,713 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 16:47:46,682 | INFO  | http-nio-8080-exec-6 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:56494 }
+09 Mar 2022 | 16:47:46,683 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:56494 ) , SessionLen: 312538, Type: JavaScript
+09 Mar 2022 | 16:55:06,659 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+09 Mar 2022 | 16:55:06,661 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+09 Mar 2022 | 16:55:06,662 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: JSHelloWorld }, CCU: 0/1
+09 Mar 2022 | 16:55:06,663 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+09 Mar 2022 | 17:13:50,502 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:13:50,789 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:13:50,807 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:13:50,856 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:13:50,857 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:13:50,868 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:13:50,873 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:13:50,876 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:13:50,895 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:13:50,904 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:13:50,928 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:13:50,929 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:13:50,930 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:13:51,999 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:13:52,007 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:13:52,042 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:13:52,410 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:13:52,412 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:13:52,412 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:13:52,415 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:13:54,642 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:14:02,691 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 49716
+09 Mar 2022 | 17:14:04,587 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:49716 ) , Type: JavaScript
+09 Mar 2022 | 17:14:12,834 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 17:14:12,851 | INFO  | SFSWorker:Ext:2 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 17:15:11,755 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:49716 }
+09 Mar 2022 | 17:15:11,757 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:49716 ) , SessionLen: 67170, Type: JavaScript
+09 Mar 2022 | 17:15:14,517 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 58465
+09 Mar 2022 | 17:15:17,985 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:58465 ) , Type: JavaScript
+09 Mar 2022 | 17:15:19,762 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 17:15:19,763 | INFO  | SFSWorker:Ext:4 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 17:15:53,020 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:15:53,449 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:15:53,458 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:15:55,462 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:15:55,711 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:15:55,715 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:16:07,235 | INFO  | http-nio-8080-exec-5 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:58465 }
+09 Mar 2022 | 17:16:07,236 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 1, Priv: 0, Sess: 127.0.0.1:58465 ) , SessionLen: 49250, Type: JavaScript
+09 Mar 2022 | 17:16:11,364 | INFO  | http-nio-8080-exec-6 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 58477
+09 Mar 2022 | 17:16:14,742 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 2, Priv: 0, Sess: 127.0.0.1:58477 ) , Type: JavaScript
+09 Mar 2022 | 17:16:16,118 | INFO  | SFSWorker:Ext:3 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 17:16:16,132 | INFO  | SFSWorker:Ext:3 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 17:17:04,019 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 57759
+09 Mar 2022 | 17:17:08,120 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished2, Id: 3, Priv: 0, Sess: 0:0:0:0:0:0:0:1:57759 ) , Type: JavaScript
+09 Mar 2022 | 17:17:19,272 | INFO  | http-nio-8080-exec-8 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 57763
+09 Mar 2022 | 17:17:20,648 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Login error: Another user is already logged with the same name: Tarnished. Requested by: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:57763 }
+09 Mar 2022 | 17:17:22,207 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: Extension Request refused. Sender is not a User: { Id: 5, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:57763 }
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:93)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+09 Mar 2022 | 17:17:26,908 | INFO  | SFSWorker:Ext:3 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished2 
+09 Mar 2022 | 17:17:26,911 | INFO  | SFSWorker:Ext:3 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished2 to others 
+09 Mar 2022 | 17:17:46,965 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:17:47,255 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:17:47,275 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:17:47,326 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:17:47,327 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:17:47,337 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:17:47,343 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:17:47,345 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:17:47,366 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:17:47,377 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:17:47,403 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:17:47,404 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:17:47,406 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:17:48,495 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:17:48,510 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:17:48,567 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:17:48,960 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:17:48,962 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:17:48,962 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:17:48,965 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:17:51,630 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:17:59,051 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 57842
+09 Mar 2022 | 17:18:02,914 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:57842 ) , Type: JavaScript
+09 Mar 2022 | 17:18:04,350 | INFO  | http-nio-8080-exec-5 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 57847
+09 Mar 2022 | 17:18:06,984 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: JSHelloWorld }, ( User Name: Tarnished2, Id: 1, Priv: 0, Sess: 127.0.0.1:57847 ) , Type: JavaScript
+09 Mar 2022 | 17:18:11,942 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Got Hi fromTarnished 
+09 Mar 2022 | 17:18:11,969 | INFO  | SFSWorker:Ext:1 | Extensions |     | {JSHelloWorld}: Sent Hi fromTarnished to others 
+09 Mar 2022 | 17:19:24,595 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:57847 }
+09 Mar 2022 | 17:19:24,596 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished2, Id: 1, Priv: 0, Sess: 127.0.0.1:57847 ) , SessionLen: 77612, Type: JavaScript
+09 Mar 2022 | 17:19:29,301 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 58116
+09 Mar 2022 | 17:20:09,140 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1:58116 }
+09 Mar 2022 | 17:23:19,194 | INFO  | http-nio-8080-exec-9 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:57842 }
+09 Mar 2022 | 17:23:19,194 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: JSHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:57842 ) , SessionLen: 316280, Type: JavaScript
+09 Mar 2022 | 17:37:07,216 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:37:07,510 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:37:07,529 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:37:07,578 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:37:07,579 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:37:07,588 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:37:07,593 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:37:07,596 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:37:07,616 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JavaHelloWorld.zone.xml
+09 Mar 2022 | 17:37:07,625 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:37:07,632 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:37:07,655 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:37:07,656 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JavaHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:37:07,667 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JavaHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:37:07,685 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:37:07,724 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:37:08,081 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:37:08,083 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:37:08,084 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:37:08,085 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: Extension creation failure: JavaHelloWorld - Class not found: ZoneExt
+Description: There were startup errors during the Zone Setup
+Please connect via the AdminTool and correct the problem
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:435)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:273)
+com.smartfoxserver.v2.Main.main(Main.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:37:08,086 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:37:10,192 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:46:13,376 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:46:13,666 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:46:13,685 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:46:13,736 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:46:13,737 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:46:13,747 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:46:13,751 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:46:13,754 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:46:13,772 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JavaHelloWorld.zone.xml
+09 Mar 2022 | 17:46:13,779 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:46:13,786 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:46:13,810 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:46:13,810 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JavaHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:46:13,811 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JavaHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:46:13,842 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:46:13,880 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:46:14,248 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:46:14,250 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:46:14,251 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:46:14,252 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: Extension creation failure: JavaHelloWorld - Unexpected error while launching Extension: ZoneExt -- ZoneExt has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+Description: There were startup errors during the Zone Setup
+Please connect via the AdminTool and correct the problem
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:435)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:273)
+com.smartfoxserver.v2.Main.main(Main.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:46:14,254 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:46:16,420 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:48:05,477 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:48:05,774 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:48:05,793 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:48:05,842 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:48:05,843 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:48:05,853 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:48:05,857 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:48:05,860 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:48:05,878 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JavaHelloWorld.zone.xml
+09 Mar 2022 | 17:48:05,885 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:48:05,893 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:48:05,917 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:48:05,918 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JavaHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:48:05,919 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JavaHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:48:05,924 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:48:05,925 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:48:07,010 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:48:07,021 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:48:07,068 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:48:07,452 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:48:07,454 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:48:07,454 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:48:07,457 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:48:09,719 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:48:46,922 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JavaHelloWorld, Type: JAVA, Lev: ZONE, { Zone: JavaHelloWorld }, {} }
+09 Mar 2022 | 17:50:12,548 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 17:50:12,839 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 17:50:12,856 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 17:50:12,904 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 17:50:12,905 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 17:50:12,915 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 17:50:12,920 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 17:50:12,922 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 17:50:12,941 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JavaHelloWorld.zone.xml
+09 Mar 2022 | 17:50:12,950 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\JSHelloWorld.zone.xml
+09 Mar 2022 | 17:50:12,957 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:50:12,979 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:50:12,980 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JavaHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:50:12,981 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JavaHelloWorld }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:50:12,984 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: JSHelloWorld 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:50:12,985 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: JSHelloWorld }, [ Room: The Lobby, Id: 2, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:50:14,126 | INFO  | main | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:50:14,142 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 17:50:14,211 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 17:50:14,726 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 17:50:14,728 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 17:50:14,728 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 17:50:14,731 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 17:50:16,939 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+09 Mar 2022 | 17:50:24,120 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 127.0.0.1 } on Server port: 8080 <---> 49399
+09 Mar 2022 | 17:50:28,356 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: JavaHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:49399 ) , Type: JavaScript
+09 Mar 2022 | 17:51:09,019 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:51:09,396 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:51:09,405 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:51:13,416 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:51:13,708 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:51:13,716 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:51:15,721 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:51:15,958 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:51:15,962 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:51:17,965 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
+09 Mar 2022 | 17:51:18,199 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
+09 Mar 2022 | 17:51:18,203 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 

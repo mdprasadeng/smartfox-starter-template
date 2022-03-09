@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Bax">
+	<title>SmartFoxServer 2X | Connector</title>
+
+	<!-- Reset styles -->
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+
+	<!-- Set custom styles -->
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+	<!-- Load SFS2X JS API -->
+	<script type="text/javascript" src="libs/sfs2x-api-1.7.11.js"></script>
+
+	<!-- Load main script -->
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+</head>
+
+<body>
+	<div id="header" class="group">
+		<img id="logo" src="images/logo.png"/>
+		<p id="title1">
+			SmartFoxServer 2X Examples<br/>
+			<strong>Connector</strong><br/>
+			&copy; 2017 gotoAndPlay()
+		</p>
+		<p id="title2">
+			<strong>Connector example</strong><br/>
+			&copy; 2017 gotoAndPlay()
+		</p>
+	</div>
+	<div id="main">
+		<div id="controls">
+			<input type="text" id="addressIn" placeholder="Enter address" value="localhost" />
+			<input type="text" id="portIn" placeholder="Enter port" value="8080" />
+			<input type="checkbox" id="debugCb" checked=true/> Show debug
+			<input type="button" id="connectBt" value="Connect" onclick="onConnectBtClick()" />
+			<input type="button" id="disconnectBt" value="Disconnect" onclick="onDisconnectBtClick()" style="display: none;" />
+
+			<div id="connectedOptions" style="display: none;">
+				<input type="text" id="nameIn" placeholder="Enter Name" value="Tarnished" />
+				<input type="button" id="loginBt" value="Login" onclick="onLoginBtClick()" />
+				<input type="button" id="hiBt" value="Say Hi" onclick="onHiBtClick()" />
+			</div>
+		</div>
+		<div id="log">
+			<strong>Connection log</strong><br>
+			Enter the server address and port and click the <em>Connect</em> button
+		</div>
+	</div>
+</body>
+</html>
