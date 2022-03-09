@@ -15,9 +15,11 @@ JDK is used to package the code
 ## Prerequisites
 Install and configure JDK
 
+# No IDEs
+
 ## Hello World
 ```bash
-cd helloworld
+cd NoIDEs/helloworld
 javac HelloWorld.java
 java HelloWorld
 ```
@@ -26,17 +28,32 @@ java HelloWorld
 
 ### Running on local
 ```bash
-cd specialhelloworld
+cd NoIDEs/specialhelloworld
 javac -cp "./commons-lang3-3.12.0.jar" *.java
 java -cp ".;commons-lang3-3.12.0.jar" SpecialHelloWorld
 ```
 ### Packaging
 ```bash
-cd specialhelloworld
+cd NoIDEs/specialhelloworld
 javac -cp "./commons-lang3-3.12.0.jar" *.java
 jar cfm SpecialHelloWorld.jar manifest.mf *.class
 ```
 ### Running on another machine
 ```bash
+cd cd NoIDEs/specialhelloworld
 java -cp "SpecialHelloWorld.jar;commons-lang3-3.12.0.jar" SpecialHelloWorld
+```
+
+# Yay IDEs
+
+### IDEA and maven
+* Explain pom.xml etc
+* Source and Target
+* Dependencies
+* Plugins ?
+* maven lifecycles
+
+```bash
+cd yayIDEs/SpecialHelloWorld
+java -cp "./target/SpecialHelloWorld-1.0-SNAPSHOT.jar;../../NoIDEs/specialhelloworld/commons-lang3-3.12.0.jar" SpecialHelloWorld
 ```
