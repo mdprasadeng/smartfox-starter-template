@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>SmartFoxServer 2X</title>
+	<style type="text/css" media="screen">
+	
+		body{ font: 100% "Tahoma", Verdana, sans-serif; margin:20px; }
+		h1, h2 { color: #990000;}
+		h3 {color: #cc0000;}
+		.notes { font-size: 80%;}
+		.specialBox
+		{
+			margin: 20px;
+			padding: 10px;
+			background-color: #ffffee;
+			border: 2px dashed #ff9900;
+			line-height:20px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<h2>
+		{ SmartFoxServer 2X -- 2.18 }
+	</h2>
+	
+	<p>
+		<em>Version 2.18.0</em><br>
+		(c) 2009-2021 GOTOANDPLAY snc -- All rights reserved --<br>
+	</p>
+
+	<h3>&raquo; What's new</h3>
+	<ul>
+	<li>
+		<p><strong>SmartFoxServer 2X 2.18</strong> comes as a <u>standalone installer</u>. As such it must be installed in a new directory and cannot be used as an update for a previous installation.</p>
+		<strong>Server:</strong>
+		<ul>
+			<li>NEW: native support for Apple's M1 chips</li>
+			<li>NEW: Java Runtime 11 is the default JRE now</li>
+			<li>NEW: Tomcat is updated to version 9.0.55</li>
+			<li>NEW: Java mail is updated to version 1.6.2</li>
+			<li>NEW: GeoLite database updated</li>
+			<li>NEW: RoomStorage API now support a 'CUSTOM' type where you can pass your own implementation of the IRoomStorage interface</li>
+			<li>NEW: added two extra methods to SFSBannedUserManager, getBannedUserByIp(), getBannedUserByName() to find banned users</li>
+			<li>NEW: send ROOM_CREATION_ERROR to client when exceeding the number of Rooms that can be created at once </li>
+			<li>NEW: added new setting UseSSL in SFSMailer configuration</li>
+			<li>FIX: added default value (50sec) for userMaxLimboSeconds to CreateMMORoomSettings</li>
+			<li>FIX: added client side error when QuickJoin is invoked in a Zone with no Rooms</li>
+			
+		</ul>
+		<br/>
+		<strong>Admin Tool:</strong>
+		<ul>
+			<li>NEW: added maxThreads and maxConnections parameters to Server Configurator module, Web server tab, for both HTTP and HTTPS Tomcat connectors</li>
+			<li>NEW: in Zone Monitor, added a "reason" field when banning a user</li>
+			<li>FIX: in Zone Configurator and Zone Monitor modules, when accessing the Zone or Room Extension settings, if the Extension's JAR file contains a very large number of classes, a client JavaScript error is thrown and the "Main class" dropdown remains empty</li>
+			<li>FIX: under certain circumstances, all log lines in Log Viewer's Runtime Log tab are grouped in a single row in the table</li>
+			<li>FIX: in all modules based on the UI Builder system, text inputs now have an increased width (varies with screen width)</li>
+		</ul>
+	</li>
+</ul>
+<p>&nbsp;</p>
+<hr/>
+	<p>
+  		<strong>SmartFoxServer 2X</strong><br>
+		<em>Version 2.18.0</em><br>
+		(c) 2009-2021 GOTOANDPLAY snc -- All rights reserved --<br>
+	</p>
+</body>
+</html>

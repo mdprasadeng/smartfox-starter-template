@@ -1,0 +1,138 @@
+SMARTFOXSERVER LICENSE AGREEMENT
+
+
+THIS AGREEMENT IS MADE AS OF THE EFFECTIVE DATE BETWEEN YOU, THE USER (the “User”) AND GOTOANDPLAY S.N.C. OPERATING UNDER THE NAME GOTOANDPLAY (“gotoAndPlay”) WITH RESPECT TO YOUR USE OF SMARTFOXSERVER (“SmartFoxServer”).
+
+In consideration of the mutual promises contained herein, the User and gotoAndPlay hereby agree as follows.
+
+
+
+Section 1 - Definitions
+In this Agreement, the following expressions shall have the meanings indicated:
+
+(a) “SmartFoxServer” means the software products called SmartFoxServer and SmartFoxServer2X that are licensed to the User under this Agreement, including, but not limited to, any related components purchased or provided with SmartFoxServer, application programming interfaces, associated media, printed materials, online or electronic documentation, and any updates and maintenance releases thereto;
+(b) “License” means as set forth in Section 2;
+(c) “License File” means the file containing informations on the purchased SmartFoxServer License to activate its usage, delivered to the User by gotoAndPlay directly or by means of the License Server;
+(d) “License Server” means the online service developed, maintained and owned by gotoAndPlay which distributes the License File to the SmartFoxServer instances;
+(e) “Effective Date” means the date that the License File is delivered to the User by gotoAndPlay or by any other person authorized by gotoAndPlay;
+(f) “Instance” means one unique installation of “SmartFoxServer” on a Server, bound to the Server’s network IP address, whether used for development, production, service or testing purposes;
+(g) “Server” means a single physical or virtual computer; multiple computers that share processing power or operate in a networked configuration, such as a “server farm”, a “cluster” or similar arrangement constitute multiple Servers for the purpose of this Agreement;
+(h) “SmartFoxServer Website” means the website at the universal resource locator www.smartfoxserver.com; and
+(i) “User Software” means as set forth in Section 3.
+
+
+
+Section 2 - License
+Subject to the terms and conditions set out in this Agreement, gotoAndPlay hereby grants to the User a non-exclusive, transferable right to install and run one (1) Instance of SmartFoxServer on a Server and use it for the purposes as set forth in the applicable documentation for SmartFoxServer and to the extent permitted by the User’s License File, provided upon User’s payment of applicable license fees under a gotoAndPlay approved licensing model.
+
+
+
+Section 3 - Permitted Use
+Subject to the other provisions of this Agreement, the User may use SmartFoxServer for the purposes of:
+
+(a) incorporating SmartFoxServer into and as a part of any software application (the “User Software”) being developed by the User from time to time;
+(b) sub-licensing the use of SmartFoxServer to any third party as part of any User Software; and
+(c) providing services to third parties.
+
+The User is responsible for ensuring that any third party or facilities management contractor that operates SmartFoxServer on User’s behalf fully complies with the terms of this Agreement. The User shall remain completely liable for any and all acts and omissions of such third parties.  
+
+
+
+Section 4 - Restricted Use
+Except as permitted pursuant to this Agreement, the User shall not:
+
+(a) rent, lend, lease, license, distribute or transfer the License File to any other person or organization, except as a part of any User Software;
+(b) distribute or transfer the License Server account details (username, password, client code, license codes) to any other person or organization;
+(c) copy, distribute or publish any of the documentation which describes SmartFoxServer, except as reasonably required to explain the functions of any User Software;
+(d) modify, reverse engineer, de-compile, disassemble or otherwise attempt to derive source code from SmartFoxServer or the License File, in whole or in part;
+(e) create derivative works based upon SmartFoxServer;
+(f) unbundle, break apart or repackage SmartFoxServer or any of its component parts for any reason whatsoever;
+(g) grant a sub-license of the User's rights pursuant to this Agreement, or any part thereof, to any other person, except with respect to any User Software;
+(h) develop, distribute or license any User Software that is completely or substantially comprised of SmartFoxServer; or
+(i) rent, lend, lease, license, distribute or transfer any User Software that:
+
+	(i) includes any source code of SmartFoxServer; or 
+	(ii) is a software development kit, source code library, application (or software) framework or any software development tool that includes any elements or components of SmartFoxServer.
+
+The User may make one copy of the License File solely for back-up purposes. Such copy shall remain in the possession of the User at all times.
+
+
+
+Section 4.1 - Additional restrictions for Development & Testing Licenses
+This section applies only if the User has obtained a valid License File to SmartFoxServer under a gotoAndPlay approved licensing model for development and testing purposes: the SmartFoxServer Development License and SmartFoxServer Testing License usage is restricted to private networks where the Server and the connected client computers network IP addresses are in the following ranges:
+
+(a) 10.x.x.x;
+(b) 192.168.x.x; and
+(c) from 172.16.x.x to 172.31.x.x.
+
+
+
+Section 4.2 - Additional restrictions for SmartFoxServer 2X Community Edition
+This section applies only if the User has obtained a copy of the free Community Edition version of SmartFoxServer 2X: the SmartFoxServer 2X Community Edition can be used in both non-profit and commercial projects provided that a readable "Powered by SmartFoxServer" notice is displayed in the main screen or application graphical user interface of the User Software.
+
+
+
+Section 5 - User Software Notices
+The following notice shall be placed together with the copyright notices of the User in the User Software and all associated documentation:
+
+(a) SmartFoxServer is incorporated as part of the User Software under license from gotoAndPlay;
+(b) all property, right, title and interest in and to SmartFoxServer is owned by gotoAndPlay; and
+(c) further information about SmartFoxServer can be found at the SmartFoxServer Website, with a specific reference to the universal resource locator for such website.
+
+The User is responsible for ensuring that any of the User’s customers using SmartFoxServer or any User Software based upon SmartFoxServer comply with the terms of this Agreement. The User shall remain completely liable for any and all acts and omissions of such customers.
+
+
+
+Section 6 - License Fee
+For each License acquired, the User shall pay to gotoAndPlay (or to a person authorized by gotoAndPlay) a one-time fee in an amount as determined by gotoAndPlay and communicated to the User by gotoAndPlay (or by a person authorized by gotoAndPlay). Such fee shall be paid on or before the Effective Date.
+
+
+
+Section 7 - Intellectual Property Rights and Confidentiality
+SmartFoxServer is the exclusive intellectual property of gotoAndPlay and protected by copyright laws and international treaties. gotoAndPlay retains all property, right, title, and interest, including all intellectual property rights, in and to SmartFoxserver and the documentation. gotoAndPlay does not grant the User any title or intellectual property rights in or to SmartFoxserver. 
+
+The structure, organization, code and License File of SmartFoxServer are confidential information and are valuable trade secrets of gotoAndPlay. The User hereby agree to maintain the confidentiality of SmartFoxServer, License File and other intellectual property of gotoAndPlay using the greatest degree of care. The User agrees to reasonably communicate the terms and conditions of this Agreement to those persons employed by the User who come into contact with SmartFoxServer, License File and other intellectual property of gotoAndPlay, and to use reasonable best efforts to ensure their compliance with such terms and conditions, including, without limitation, not knowingly permitting such persons to use any portion of SmartFoxServer, License File and other intellectual property of gotoAndPlay for the purpose of deriving the source code of SmartFoxServer or copying, defeating or otherwise circumventing License Files.
+
+
+
+Section 8 - Transfer and Assignment
+The User shall be permitted to transfer or assign all (but not only a part) of its rights, interests and obligations under this Agreement (and the License granted herein) to another person subject to providing written notice to gotoAndPlay of such transfer or assignment together with the name, address, telephone number and electronic mail address of the transferee or assignee.
+
+
+
+Section 9 - Indemnity
+The User shall and does hereby indemnify gotoAndPlay and its directors, officers and employees from any and all actions, losses, damages, claims or costs, including legal costs on a solicitor and his own client basis, that may arise directly or indirectly against gotoAndPlay in favor of a third party as a result of or in any way connected to the use of SmartFoxServer by the User, including any use of the User Software by a third party.
+
+
+
+Section 10 - No Warranty
+THE LICENSE IS GRANTED TO THE USER ON AN "AS IS" BASIS, AND GOTOANDPLAY DOES NOT OFFER ANY WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, FITNESS FOR A PARTICULAR PURPOSE, AND THOSE ARISING BY STATUTE OR OTHERWISE IN LAW OR FROM THE COURSE OF DEALING OR USAGE OF TRADE. GOTOANDPLAY DOES NOT REPRESENT OR WARRANT THAT SMARTFOXSERVER WILL MEET ANY OR ALL OF THE USER'S PARTICULAR REQUIREMENTS, THAT SMARTFOXSERVER WILL OPERATE ERROR-FREE OR UNINTERRUPTED, THAT ANY PROGRAMMING ERRORS IN SMARTFOXSERVER CAN BE FOUND OR CORRECTED OR THAT SMARTFOXSERVER DOES NOT INFRINGE UPON THE INTELLECTUAL PROPERTY RIGHTS OF OTHER PERSONS.
+
+
+
+Section 11 - Limited Liability
+THE LIABILITY OF GOTOANDPLAY TO THE USER FOR ANY CLAIMS, COSTS, LOSSES, OR DAMAGES OF ANY KIND, OR FOR ANY OTHER CAUSE, INCLUDING BUT NOT LIMITED TO LIABILITY FOR A FUNDAMENTAL BREACH OF THIS AGREEMENT, SHALL NOT EXCEED THE FEE PAID BY THE USER TO GOTOANDPLAY PURSUANT TO SECTION 6. IN NO EVENT SHALL GOTOANDPLAY BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH THE USER MAY INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING UPON THIS AGREEMENT, OR BY THE USE OR POSSESSION OF SMARTFOXSERVER, EVEN IF GOTOANDPLAY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+
+
+Section 12 - Termination
+This Agreement may be terminated by the User at any time by destroying all copies of the License File and related documentation and materials in the User's possession. This Agreement may be terminated by gotoAndPlay by giving notice to the User of the User's failure to comply with the terms and conditions of this Agreement. Upon receipt of such notice, the User shall immediately: (a) cease using the SmartFoxServer Instance; and (b) destroy all copies of the License File and related documentation and materials in the User's possession. The User shall, within thirty (30) days after receipt of such notice, provide gotoAndPlay with written notice certifying that it has complied with the foregoing provisions. Termination of this Agreement in accordance with this Section 12 shall not entitle the User to a refund of any fees paid to gotoAndPlay for the License. Termination of this Agreement by either party is without prejudice to the rights and remedies, in law or equity, that may be available to a party arising from this Agreement.
+
+
+
+Section 13 - Notices
+All notices required or permitted herein shall be in writing and shall be personally delivered, sent by registered mail, or transmitted by facsimile or electronic mail as follows: if to gotoAndPlay, to the address, fax number or e-mail address of gotoAndPlay as set forth in the SmartFoxServer Website, and if to the User, to the address, fax number or e-mail address of the User as disclosed by the User to gotoAndPlay (or to a person authorized by gotoAndPlay) upon the User's acquisition of the License.
+
+
+
+Section 14 - General
+(1) The User shall not assign or otherwise transfer this Agreement or any of its rights or obligations herein. (2) This Agreement shall endure to the benefit of, and be binding upon, the parties respective successors and permitted assigns. (3) This Agreement shall be governed by and construed in accordance with the laws in force in Italy. The parties hereby submit to the jurisdiction of the italian regulations. (4) As the context of this Agreement so requires, words that import the singular shall include the plural, and vice versa, and words that import a particular gender shall include all other genders. (5) The provisions of this 13 and of Sections 1, 7, 9, 10, 11 and 13 of this Agreement shall survive the termination of this Agreement.
+
+
+
+Section 15 - Third Party Software
+SmartFoxServer uses code from third party libraries. For a complete list of third party libraries please check the licences folder inside the SmartFoxServer Instance installation directory.
+
+
+
+End of document

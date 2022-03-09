@@ -1,0 +1,99 @@
+10 dic 2021 | 09:54:16,956 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+10 dic 2021 | 09:54:17,404 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+10 dic 2021 | 09:54:17,439 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/19/bjgz1lv90wqfshyptkllp7dr0000gn/T/vfs_cache" as temporary files store.
+10 dic 2021 | 09:54:17,523 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+10 dic 2021 | 09:54:17,524 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+10 dic 2021 | 09:54:17,525 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+10 dic 2021 | 09:54:17,530 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+10 dic 2021 | 09:54:17,533 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+10 dic 2021 | 09:54:17,558 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+10 dic 2021 | 09:54:17,589 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+10 dic 2021 | 09:54:17,598 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+10 dic 2021 | 09:54:17,677 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+10 dic 2021 | 09:54:17,780 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+10 dic 2021 | 09:54:17,783 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0a ] 
+
+10 dic 2021 | 09:54:17,783 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0a) READY!
+10 dic 2021 | 09:54:17,787 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+10 dic 2021 | 09:54:20,235 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+10 dic 2021 | 09:54:36,410 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 192.168.1.58 } on Server port: 8080 <---> 61102
+10 dic 2021 | 09:54:36,559 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 192.168.1.58:61102 ) , Type: Unity
+10 dic 2021 | 09:54:36,764 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 192.168.1.58:61102 ) , asSpect: false
+10 dic 2021 | 09:54:42,146 | WARN  | SFSWorker:Sys:1 | entities.managers.SFSRoomManager |     | com.smartfoxserver.v2.exceptions.SFSExtensionException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSExtensionException
+Message: Extension boot error. The provided path is not a directory: extensions/TicTacToe
+Description: Failure while creating room extension.
+Possible Causes: If the CreateRoom request was sent from client make sure that the extension name matches the name of an existing extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createJavaExtension(SFSExtensionManager.java:346)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:260)
+com.smartfoxserver.v2.entities.managers.SFSRoomManager.createRoomExtension(SFSRoomManager.java:249)
+com.smartfoxserver.v2.entities.managers.SFSRoomManager.createRoom(SFSRoomManager.java:196)
+com.smartfoxserver.v2.entities.SFSZone.createRoom(SFSZone.java:255)
+com.smartfoxserver.v2.api.SFSApi.createRoom(SFSApi.java:755)
+com.smartfoxserver.v2.api.SFSGameApi.createGame(SFSGameApi.java:147)
+com.smartfoxserver.v2.api.SFSGameApi.createGame(SFSGameApi.java:100)
+com.smartfoxserver.v2.controllers.system.game.CreateSFSGame.execute(CreateSFSGame.java:140)
+com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:190)
+com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:145)
+com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+com.smartfoxserver.bitswarm.websocket.tomcat.WebSocketBinaryProtocolCodec.dispatchRequest(WebSocketBinaryProtocolCodec.java:217)
+com.smartfoxserver.bitswarm.websocket.tomcat.WebSocketBinaryProtocolCodec.onPacketRead(WebSocketBinaryProtocolCodec.java:78)
+sfs2x.ws.tomcat.websocket.SFS2XWSService$WSIOExecutor.run(SFS2XWSService.java:520)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:834)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+10 dic 2021 | 09:54:42,147 | INFO  | SFSWorker:Sys:1 | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ SFSGame: Guest#0's game, Id: 2, Group: games, public: true, minPlayers: 0 ], type = SFSGame
+10 dic 2021 | 09:54:42,148 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ SFSGame: Guest#0's game, Id: 2, Group: games, public: true, minPlayers: 0 ], { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 192.168.1.58:61102 ) , asSpect: false
+10 dic 2021 | 09:54:42,273 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: 2
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:834)
+
+10 dic 2021 | 09:55:17,785 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+10 dic 2021 | 09:55:17,787 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/1
+10 dic 2021 | 09:55:17,788 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+10 dic 2021 | 09:59:48,013 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 192.168.1.58:61102 }
+10 dic 2021 | 09:59:48,015 | INFO  | SFSWorker:Sys:4 | entities.managers.SFSRoomManager |     | Room removed: { Zone: BasicExamples }, [ SFSGame: Guest#0's game, Id: 2, Group: games, public: true, minPlayers: 2 ], Duration: 305877
+10 dic 2021 | 09:59:48,016 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 192.168.1.58:61102 ) , SessionLen: 311458, Type: Unity
+10 dic 2021 | 10:01:35,994 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+10 dic 2021 | 10:01:35,995 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+10 dic 2021 | 10:01:36,019 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.

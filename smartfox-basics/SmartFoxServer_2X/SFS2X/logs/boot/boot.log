@@ -1,0 +1,96 @@
+09 Mar 2022 | 12:45:25,987 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+09 Mar 2022 | 12:45:25,989 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.71.0 { main }
+09 Mar 2022 | 12:45:25,989 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 16
+	VM Max. memory: 4250MB
+	os.name: Windows 10
+	os.arch: amd64
+	os.version: 10.0
+	java.version: 11.0.13
+	java.vendor: Eclipse Adoptium
+	java.vendor.url: https://adoptium.net/
+	java.vm.specification.version: 11
+	java.vm.version: 11.0.13+8
+	java.vm.vendor: Eclipse Adoptium
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: C:\Users\DURGAP~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+09 Mar 2022 | 12:45:26,130 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Microsoft 6to4 Adapter
+	Card: WAN Miniport (SSTP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #3
+		 ->fe80:0:0:0:68d8:fd86:7ddc:e19a%wlan0
+	Card: Realtek USB GbE Family Controller
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Microsoft IP-HTTPS Platform Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:a88c:fd8:300c:29eb%wlan1
+	Card: Bluetooth Device (Personal Area Network)
+		 ->fe80:0:0:0:989c:61fe:650c:620e%eth3
+	Card: Killer E2600 Gigabit Ethernet Controller
+		 ->fe80:0:0:0:198d:c79c:a144:fecc%eth4
+	Card: WAN Miniport (IPv6)
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IKEv2)
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)
+		 ->192.168.10.80
+		 ->fe80:0:0:0:ad1d:8c7a:f117:120c%wlan3
+	Card: Microsoft Teredo Tunneling Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #3-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #2
+	Card: WAN Miniport (IP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #3-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)-Virtual WiFi Filter Driver-0000
+	Card: Killer E2600 Gigabit Ethernet Controller-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Killer E2600 Gigabit Ethernet Controller-QoS Packet Scheduler-0000
+	Card: Killer E2600 Gigabit Ethernet Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)-Native WiFi Filter Driver-0000
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)-QoS Packet Scheduler-0000
+	Card: Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #3-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter #3-Native WiFi Filter Driver-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: Hyper-V Virtual Switch Extension Adapter
+	Card: Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000
+	Card: Hyper-V Virtual Ethernet Adapter
+		 ->172.29.112.1
+		 ->fe80:0:0:0:c497:8112:f48a:4466%eth18
+	Card: Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000
+	Card: Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+
+09 Mar 2022 | 12:45:26,133 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@68759011
+09 Mar 2022 | 12:45:26,308 | INFO  | main | bootLogger |     | TCP Selector opened
+09 Mar 2022 | 12:45:26,312 | INFO  | main | bootLogger |     | UDP Selector opened
+09 Mar 2022 | 12:45:26,314 | INFO  | main | bootLogger |     | AcceptSelector opened
+09 Mar 2022 | 12:45:26,314 | INFO  | main | bootLogger |     | DatagramChannel cache size: 80
+09 Mar 2022 | 12:45:26,318 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+09 Mar 2022 | 12:45:26,329 | INFO  | main | bootLogger |     | Added bound udp socket --> 0.0.0.0:9933
+09 Mar 2022 | 12:45:26,329 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+09 Mar 2022 | 12:45:26,330 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+09 Mar 2022 | 12:45:26,331 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+09 Mar 2022 | 12:45:26,331 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+09 Mar 2022 | 12:45:26,334 | INFO  | main | bootLogger |     | SocketWriter v3 started (TCP pool size: 3, UDP pool size: 3 
+09 Mar 2022 | 12:45:26,336 | INFO  | main | bootLogger |     | Security Manager started
+09 Mar 2022 | 12:45:26,337 | INFO  | main | bootLogger |     | DatagramReader started
+09 Mar 2022 | 12:45:26,337 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@e24ddd0
+09 Mar 2022 | 12:45:26,338 | INFO  | main | bootLogger |     | SocketReader started
+09 Mar 2022 | 12:45:26,338 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+09 Mar 2022 | 12:45:26,338 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

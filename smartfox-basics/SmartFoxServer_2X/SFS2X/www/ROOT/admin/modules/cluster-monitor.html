@@ -1,0 +1,107 @@
+<cluster-monitor-module class="module" id="cluster-monitor-module">
+	<style>
+		.nodes-container {
+			max-height: 500px;
+			overflow-y: auto;
+		}
+
+		.name-cell {
+			line-height: 1em;
+    		padding: .5em 0;
+		}
+
+		#clm-nodesList .k-grouping-row {
+			/* background-color: #F4F4F4; */
+		}
+
+		#clm-nodesList .k-grouping-row td {
+			border-top: 1px solid #DDDDE4;
+			font-style: italic;
+			color: #6c757d;
+		}
+	</style>
+	<div class="row mx-0">
+		<div class="col-sm-6 col-lg-3 mt-3">
+			<div class="special-box">
+				<span class="special-box-label my-1">Uptime</span>
+				<div class="d-flex justify-content-around font-weight-bold special-box-container">
+					<div><div id="clm-uptimeDays">---</div><div class="value-label">days</div></div>
+					<div>:<div class="value-label">&nbsp;</div></div>
+					<div><div id="clm-uptimeHours">--</div><div class="value-label">hours</div></div>
+					<div>:<div class="value-label">&nbsp;</div></div>
+					<div><div id="clm-uptimeMinutes">--</div><div class="value-label">minutes</div></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-lg-3 mt-3">
+			<div class="special-box">
+				<span class="special-box-label my-1">Total Nodes</span>
+				<div class="d-flex justify-content-around font-weight-bold special-box-container">
+					<div><div id="clm-totalActiveNodes">---</div><div class="value-label">active</div></div>
+					<div><div id="clm-totalInactiveNodes">--</div><div class="value-label">inactive</div></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-lg-3 mt-3">
+			<div class="special-box">
+				<span class="special-box-label my-1">Total CCU</span>
+				<div class="d-flex justify-content-around font-weight-bold special-box-container">
+					<div><div id="clm-totalCcuLobby">---</div><div class="value-label">lobby</div></div>
+					<div><div id="clm-totalCcuNodes">--</div><div class="value-label">nodes</div></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-lg-3 mt-3">
+			<div class="special-box">
+				<span class="special-box-label my-1">Total Rooms</span>
+				<div class="d-flex justify-content-around font-weight-bold special-box-container">
+					<div><div id="clm-totalRooms">---</div><div class="value-label">on nodes</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="nodes-container mx-3 mt-3">
+		<div id="clm-nodesList"></div>
+	</div>
+	<div class="d-flex justify-content-between mx-3 mt-3">
+		<div id="clm-mainRangeContainer">
+			<label class="text-muted pr-1">Range:</label>
+			<select id="clm-mainRangeDD" class="dropdown-sm dropdown-secondary"></select>
+		</div>
+		<span>&nbsp;</span>
+		<button id="clm-refreshBt" type="button" class="btn btn-secondary btn-sm" title="Refresh now"><i class="fas fa-sync-alt"></i></button>
+	</div>
+	<div id="clm-nodeMiniChartsContainer" class="m-3"></div>
+
+	<div class="modal" id="clm-chartModal" tabindex="-1" role="dialog" aria-labelledby="clm-chartModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div>
+						<h5 class="modal-title text-primary" id="clm-chartModalTitle"></h5>
+						<div class="d-flex align-items-baseline">
+							<label class="text-muted pr-1">Node:</label>
+							<strong id="clm-chartNodeAlias" class="pr-1"></strong>
+							<small id="clm-chartNodeName" class="pr-1"></small>
+						</div>
+						<div>
+							<label class="text-muted pr-1">Range:</label>
+							<select id="clm-chartRangeDD" class="dropdown-sm dropdown-secondary"></select>
+						</div>
+					</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="clm-nodeDetailChartContainer"></div>
+				</div>
+				<!--
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+				-->
+			</div>
+		</div>
+	</div>
+</cluster-monitor-module>

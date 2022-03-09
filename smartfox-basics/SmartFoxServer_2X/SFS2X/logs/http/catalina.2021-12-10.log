@@ -1,0 +1,73 @@
+10-Dec-2021 09:54:18.043 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.55
+10-Dec-2021 09:54:18.043 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2021 08:26:45 UTC
+10-Dec-2021 09:54:18.043 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.55.0
+10-Dec-2021 09:54:18.043 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/lib/apache-tomcat
+10-Dec-2021 09:54:18.044 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/lib/apache-tomcat
+10-Dec-2021 09:54:18.046 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Dec-2021 09:54:18.048 INFORMAZIONI [TomcatRunner] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/Lapo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Dec-2021 09:54:18.315 INFORMAZIONI [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2021 09:54:18.339 INFORMAZIONI [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+10-Dec-2021 09:54:18.782 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.Catalina.load Server initialization in [909] milliseconds
+10-Dec-2021 09:54:18.831 INFORMAZIONI [TomcatRunner] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Dec-2021 09:54:18.831 INFORMAZIONI [TomcatRunner] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.55]
+10-Dec-2021 09:54:18.861 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/BlueBox.war]
+10-Dec-2021 09:54:20.223 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:20.250 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/BlueBox.war] has finished in [1,388] ms
+10-Dec-2021 09:54:20.250 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/manager]
+10-Dec-2021 09:54:21.280 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:21.286 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/manager] has finished in [1,036] ms
+10-Dec-2021 09:54:21.286 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/HelloServlet]
+10-Dec-2021 09:54:22.227 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:22.229 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/HelloServlet] has finished in [943] ms
+10-Dec-2021 09:54:22.229 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/ROOT]
+10-Dec-2021 09:54:23.180 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:23.182 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/ROOT] has finished in [953] ms
+10-Dec-2021 09:54:23.182 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/host-manager]
+10-Dec-2021 09:54:24.136 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:24.137 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/host-manager] has finished in [955] ms
+10-Dec-2021 09:54:24.138 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/logsBackup]
+10-Dec-2021 09:54:25.066 INFORMAZIONI [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2021 09:54:25.068 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Lapo/Desktop/SFS2X-Dev/SFS2X-2.18.0-install/SFS2X/www/logsBackup] has finished in [931] ms
+10-Dec-2021 09:54:25.073 INFORMAZIONI [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2021 09:54:25.086 INFORMAZIONI [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+10-Dec-2021 09:54:25.087 INFORMAZIONI [TomcatRunner] org.apache.catalina.startup.Catalina.start Server startup in [6304] milliseconds
+10-Dec-2021 10:01:35.998 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2021 10:01:36.009 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+10-Dec-2021 10:01:36.010 INFORMAZIONI [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Dec-2021 10:01:36.054 AVVERTENZA [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BlueBox] appears to have started a thread named [SFSWorker:Sys:3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+10-Dec-2021 10:01:36.055 AVVERTENZA [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BlueBox] appears to have started a thread named [SFSWorker:Sys:4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+10-Dec-2021 10:01:36.056 AVVERTENZA [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BlueBox] appears to have started a thread named [SFSWorker:Ext:4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+10-Dec-2021 10:01:36.060 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2021 10:01:36.064 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+10-Dec-2021 10:01:36.068 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2021 10:01:36.068 INFORMAZIONI [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]

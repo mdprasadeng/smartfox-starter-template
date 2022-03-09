@@ -1,0 +1,8 @@
+# install4j response file for SmartFoxServer 2X 2.18.0
+installAsService$Boolean=false
+sys.adminRights$Boolean=true
+sys.installationDir=C\:\\Users\\durgaprasad\\supg\\smartfox-starter-template\\smartfox-basics\\SmartFoxServer_2X
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=true
+sys.programGroupName=SmartFoxServer 2X

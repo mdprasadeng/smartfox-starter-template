@@ -1,0 +1,49 @@
+09 Mar 2022 | 12:45:25,486 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+09 Mar 2022 | 12:45:25,788 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+09 Mar 2022 | 12:45:25,808 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\DURGAP~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+09 Mar 2022 | 12:45:25,857 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+09 Mar 2022 | 12:45:25,858 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+09 Mar 2022 | 12:45:25,877 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+09 Mar 2022 | 12:45:25,882 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+09 Mar 2022 | 12:45:25,884 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+09 Mar 2022 | 12:45:25,902 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 12:45:25,921 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 12:45:25,926 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+09 Mar 2022 | 12:45:25,986 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+09 Mar 2022 | 12:45:26,344 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 0.0.0.0:9933, (Udp) } 
+09 Mar 2022 | 12:45:26,346 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.18.0 ] 
+
+09 Mar 2022 | 12:45:26,346 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.18.0) READY!
+09 Mar 2022 | 12:45:26,349 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Using default Admin login and password!
+----------------------------------------------------------------------
+You are currently using the default Admin credentials, which aren't very secure.
+We urge you to connect via the AdminTool and change your Admin credentials.
+Once logged in choose Server Settings > Remote Admin, apply the changes and restart SFS2X.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+09 Mar 2022 | 12:45:28,535 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
