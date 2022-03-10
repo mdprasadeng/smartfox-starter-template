@@ -65,3 +65,35 @@ java -cp "./target/SpecialHelloWorld-1.0-SNAPSHOT.jar;../../NoIDEs/specialhellow
 * sfs2x.bat file
 * config server.xml
 * config zone's xml
+* client
+
+# Javascript Extension
+
+# Java Extension
+
+# Next steps
+* http://docs2x.smartfoxserver.com/
+
+
+# Smartfox Features
+* Game Rooms
+* Room Variables
+* Players, Users, Spectators
+* MatchMaking
+* User session
+* User, Room properties
+* Zone and Room communication
+* word filtering 
+* [Not Used] Chat, buddy API
+* http://docs2x.smartfoxserver.com/ExtensionsJava/advanced-concepts
+* Debugging
+* Logging
+ 
+
+# Gotchas
+* Memory leaks
+* Dynamic loading of Jar
+* Class cast exceptions if the same Jar is loaded by different rooms/zone
+
+
+

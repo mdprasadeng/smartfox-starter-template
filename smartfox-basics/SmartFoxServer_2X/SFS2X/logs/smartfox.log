@@ -1157,3 +1157,10 @@ Once logged in choose Server Settings > Remote Admin, apply the changes and rest
 09 Mar 2022 | 17:51:17,965 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: JSHelloWorld, Type: JAVASCRIPT, Lev: ZONE, { Zone: JSHelloWorld }, {} }
 09 Mar 2022 | 17:51:18,199 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example inited 
 09 Mar 2022 | 17:51:18,203 | INFO  | Thread-3 | Extensions |     | {JSHelloWorld}: Simple JS Example destroyed 
+09 Mar 2022 | 17:54:00,230 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 127.0.0.1:49399 }
+09 Mar 2022 | 17:54:00,232 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: JavaHelloWorld }, ( User Name: Tarnished, Id: 0, Priv: 0, Sess: 127.0.0.1:49399 ) , SessionLen: 211876, Type: JavaScript
+09 Mar 2022 | 17:55:14,730 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+09 Mar 2022 | 17:55:14,730 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+09 Mar 2022 | 17:55:14,730 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: JSHelloWorld }, CCU: 0/0
+09 Mar 2022 | 17:55:14,730 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: JavaHelloWorld }, CCU: 0/1
+09 Mar 2022 | 17:55:14,731 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
